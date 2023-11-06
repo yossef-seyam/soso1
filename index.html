@@ -1,0 +1,18 @@
+<html>
+<head>
+    <title>Text Input</title>
+    <script type="text/javascript">
+        function handleSubmit(event) {
+            event.preventDefault();
+            alert("محمد مخبي الاندومي بتاعته فالبنطلون");
+        }
+    </script>
+</head>
+<body>
+    <form onsubmit="handleSubmit(event)">
+        <label for="userText">Enter any text:</label><br>
+        <input type="text" id="userText" name="userText"><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
